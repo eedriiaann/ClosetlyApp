@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- AUTH -->
+    <string name="app_name">ClosetlyApp</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="no_acc_question">¿No tienes cuenta?</string>
+    <string name="goRegister">Registrate</string>
+    <string name="title_logout">Cerrar sesión</string>
+
+    <!-- PUBLICACIONES -->
+    <string name="just_now">Hace un momento</string>
+    <string name="minutes_ago">Hace %1$d minutos</string>
+    <string name="hours_ago">Hace %1$d horas</string>
+    <string name="days_ago">Hace %1$d días</string>
+    <string name="day_of_month">%1$d de %2$s</string>
+    <string name="like">Me gusta</string>
+    <string name="title_new_publication">Nueva publicación</string>
+    <string name="publication_hint">¿En qué estás pensando?</string>
+    <string name="attach_clothes">Adjuntar prendas</string>
+    <string name="publish_now">Publicar ahora</string>
+    <string name="upload_publication">Subir fotos</string>
+
+    <!-- CLOTHES -->
+    <string name="cloth_name_hint">Nombre de la prenda</string>
+    <string name="cloth_description_hint">Descripción</string>
+    <string name="cloth_category_hint">Categoría</string>
+    <string name="cloth_brand_hint">Marca</string>
+    <string name="cloth_price_hint">Precio (€)</string>
+    <string name="cloth_size_hint">Talla</string>
+    <string name="cloth_season_hint">Temporada</string>
+    <string name="cloth_tags_hint">Añadir etiqueta</string>
+    <string name="add_tag_button">Añadir</string>
+    <string name="upload_cloth_button">Subir Prenda</string>
+    <string name="cloth_upload_success">¡Prenda subida con éxito!</string>
+    <string name="cloth_upload_error">Error subiendo prenda</string>
+    <string name="name_required">El nombre es obligatorio</string>
+    <string name="invalid_price">Precio inválido</string>
+    <string name="tag_exists">Esta etiqueta ya existe</string>
+    <string name="dialog_edit_cloth_title">Editar prenda</string>
+    <string name="dialog_delete_cloth_title">Eliminar prenda</string>
+    <string name="dialog_delete_cloth_message">¿Estás seguro?</string>
+    <string name="save">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- PROFILE -->
+    <string name="publications">Fotos</string>
+    <string name="clothes">Prendas</string>
+    <string name="outfits">Atuendos</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="editPfp">Editar foto de perfil</string>
+
+    <!-- SETTINGS -->
+    <string name="title_settings">Ajustes</string>
+    <string name="title_likes">Favoritos</string>
+    <string name="title_edit_profile">Editar perfil</string>
+    <string name="title_help">Ayuda</string>
+    <string name="title_configuration">Configuración</string>
+    <string name="editProfile">Editar perfil</string>
+    <string name="changeName">Cambiar nombre</string>
+    <string name="changeNamePlaceholder">Nombre nuevo</string>
+    <string name="changePassword">Cambiar contraseña</string>
+    <string name="changePasswordActualPlaceholder">Tu contraseña actual</string>
+    <string name="changePasswordPlaceholder">Nueva contraseña</string>
+    <string name="changePasswordConfirmPlaceholder">Confirmar nueva contraseña</string>
+    <string name="confirmChanges">Confirmar cambios</string>
+    <string name="upload_clothes">Subir prendas</string>
+    <string name="select_option">Selecciona una opcion</string>
+
+    <!-- OUTFITS / MISC -->
+    <string name="create_outfit">Crear conjunto</string>
+    <string name="title_outfit_creator">Creador de conjuntos</string>
+    <string name="btn_save_outfit">Guardar conjunto</string>
+    <string name="label_select_clothes">Selecciona una prenda</string>
+    <string name="label_remove_clothes">Quitar prenda de este espacio</string>
+    <string name="label_clothes_on_this_photo">Prendas en este outfit</string>
+
+    <!-- HINTS -->
+    <string name="hint_name">Nombre</string>
+    <string name="hint_description">Descripción</string>
+    <string name="hint_category">Categoría</string>
+    <string name="hint_brand">Marca</string>
+    <string name="hint_price">Precio (€)</string>
+    <string name="hint_size">Talla</string>
+    <string name="hint_season">Temporada</string>
+
+    <!-- LABELS -->
+    <string name="tags_title">Etiquetas:</string>
+    <string name="title_cloth">Prenda</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_description">Descripción</string>
+    <string name="label_category">Categoría:</string>
+    <string name="label_brand">Marca:</string>
+    <string name="label_price">Precio:</string>
+    <string name="label_size">Talla:</string>
+    <string name="label_season">Temporada:</string>
+
+    <!-- NAVIGATION / FRAGMENTS -->
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_style">Discover</string>
+    <string name="title_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- MISC -->
+    <string name="WIP">Si estás viendo esto, ¡Es porque aún estamos trabajando en esto!</string>
+
+</resources>

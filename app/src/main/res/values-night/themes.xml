@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name="Base.Theme.ArmarioVirtual" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="colorPrimary">@color/whitebuttoncolor</item>
+            <item name="colorPrimaryVariant">@color/black</item>
+            <item name="colorOnPrimary">@color/white</item>
+
+            <item name="colorSecondary">@color/whitebuttoncolor</item>
+            <item name="colorSecondaryVariant">@color/black</item>
+            <item name="colorOnSecondary">@color/white</item>
+
+            <item name="android:colorBackground">@color/black</item>
+            <item name="colorOnBackground">@color/white</item>
+            <item name="colorSurface">@color/light_grey</item>
+            <item name="colorOnSurface">@color/black</item>
+            <item name="colorSurfaceVariant">@color/grey</item>
+            <item name="colorOnSurfaceVariant">@color/light_grey</item>
+
+            <item name="colorError">@color/red</item>
+            <item name="colorOnError">@color/black</item>
+
+            <item name="android:statusBarColor">@color/black</item>
+            <item name="android:navigationBarColor">@color/black</item>
+            <item name="android:navigationBarDividerColor">@color/grey</item>
+
+            <item name="tabBackground">@color/whitebuttoncolor</item>
+            <item name="tabTextColor">@color/light_grey</item>
+            <item name="tabSelectedTextColor">@color/white</item>
+            <item name="tabIndicatorColor">@color/white</item>
+
+            <item name="android:windowBackground">@color/black</item>
+        </style>
+
+
+</resources>

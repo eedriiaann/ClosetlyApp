@@ -1,0 +1,42 @@
+------- v0.5.2.1 ------- 
+-Se ha modificado el home por completo y ahora es mucho mas agradable a la vista.
+-Se ha modificado las publicaciones details para que sean mas bonitas a la vista.
+-Se ha añadido la opción de ver videos con "me gusta".
+-Se ha añadido un control a las publicaciones y ya no se pueden borrar las publicaciones de otras personas.
+-Se ha añadido un botón en el home para acceder a las opciones extra de las publicaciones
+-Solucionado el error de llamadas asíncronas que producía crasheos
+-Esta en proceso de ser adaptado al ingles (Faltan algunos textos)
+
+
+-Se ha empezado a refactorizar (😭)
+
+------- v0.5.2.2 -------
+-Se ha añadido la eliminación de fondos de prendas mediante el SDK de OpenCV (Solo sirve para prendas que hagan gran contraste en fondos estáticos. Además tiene errores con prendas de ropa con partes blancas)
+-Se ha añadido la función de adjuntar prendas de ropa junto a las publicaciones
+
+------- v0.6 -------
+-Se tiene que solucionar que al entrar a otro perfil, no salgan sus prendas (Solucionado ✅)
+-Se tiene que hacer la función de los outfits (Solucionado ✅)
+-Se tiene que solucionar el tema de los fragments de subida (cambiarlos a activities) (Solucionado ✅)
+-Hacer la función del buscador (mínimo que busque usuarios) (Solucionado ✅)
+-Se tiene que portear el modo oscuro y la traducción de los fragments de subida (En proceso)
+-Se ha solucionado el error de que no funcionaban los dropdowns
+
+============= To Do List =============
+
+Prioridad 1 (Alta)
+Prioridad 2 (Media)
+Prioridad 3 (Baja)
+
+======================================
+
+============ Prioridad 1 =============
+
+
+
+============ Prioridad 2 =============
+
+
+
+============ Prioridad 3 =============
+-Implementar un sistema de mensajería

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:id="@+id/playerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000" />
+
+    <LinearLayout
+        android:layout_width="304dp"
+        android:layout_height="145dp"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="16dp"
+        android:gravity="bottom|start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="usuario"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            tools:text="usuario" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hola, si estas leyendo esto es una descripcion wajaja"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            tools:text="Hola, si estas leyendo esto es una descripcion wajaja" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/pauseIcon"
+        android:src="@drawable/ic_pause"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/playIcon"
+        android:src="@drawable/ic_play"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btnLike"
+            android:src="@drawable/ic_heart"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/btnComment"
+            android:src="@drawable/ic_comment"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/btnShare"
+            android:src="@drawable/ic_share"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</FrameLayout>

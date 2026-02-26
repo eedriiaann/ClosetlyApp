@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activity.HelpActivity">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/bGoSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="bGoSettings"
+            android:src="@drawable/ic_arrow_backwards"
+            android:contentDescription="Volver"
+            app:tint="?attr/colorOnBackground"/>
+
+        <TextView
+            android:id="@+id/tvSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Ayuda"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bMeGustas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Estado de la cuenta"
+        android:textAlignment="textStart"
+        android:textColor="?attr/colorOnBackground"
+        app:icon="@drawable/ic_arrow_foward"
+        app:iconGravity="end"
+        app:iconTint="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@id/headerLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/bEditProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Informar de un problema"
+        android:textAlignment="textStart"
+        android:textColor="?attr/colorOnBackground"
+        app:icon="@drawable/ic_arrow_foward"
+        app:iconGravity="end"
+        app:iconTint="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@id/bMeGustas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/bAyuda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Ayuda sobre privacidad y seguridad"
+        android:textAlignment="textStart"
+        android:textColor="?attr/colorOnBackground"
+        app:icon="@drawable/ic_arrow_foward"
+        app:iconGravity="end"
+        app:iconTint="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@id/bEditProfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/bConfiguracion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Solicitudes de ayuda"
+        android:textAlignment="textStart"
+        android:textColor="?attr/colorOnBackground"
+        app:icon="@drawable/ic_arrow_foward"
+        app:iconGravity="end"
+        app:iconTint="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@id/bAyuda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/bLogOut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="¿Qué te parece nuestra ayuda?"
+        android:textAlignment="textStart"
+        android:textColor="?attr/colorOnBackground"
+        app:icon="@drawable/ic_arrow_foward"
+        app:iconGravity="end"
+        app:iconTint="?attr/colorOnBackground"
+        app:layout_constraintTop_toBottomOf="@id/bConfiguracion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

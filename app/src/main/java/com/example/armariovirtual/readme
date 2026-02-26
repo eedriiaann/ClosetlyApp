@@ -1,0 +1,11 @@
+Soy completamente consciente del caos que existe en el paquete views,
+pero muchas de estas clases deberian de estar divididas en varias
+clases mas porque tengo clases con +200 lineas que llaman, manejan
+y enseñan datos. Si no te apetece corregir todo, la clase que mas
+me gustaria que le echaras un vistazo es la de ClothUtils que es la
+que mas tiempo dedique (unas 40h aprox). Espero que disfrutes este
+trabajo tanto como yo disfrute desarrollandolo.
+
+Puedes usar de usuario de prueba:
+Email: chaewon@gmail.com
+Contraseña: chaewon123
